@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { Welcome } from "./pages/Welcome/welcome";
 import { Board } from "./pages/Board/board";
 import { AboutUs } from "./pages/AboutUs/aboutUs";
@@ -14,7 +14,7 @@ import { Communication } from "./pages/Communication/communication";
 
 export const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path={ROUTES.HOME} element={<Welcome />} />
         <Route path={ROUTES.BOARD} element={<Board />} />
@@ -27,6 +27,6 @@ export const App = () => {
         <Route path={ROUTES.SUPPLY} element={<Supply />} />
         <Route path={ROUTES.COMMUNICATION} element={<Communication />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 };
