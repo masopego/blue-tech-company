@@ -1,0 +1,4 @@
+export const TEXTS = [
+  "Blue Tech es una agencia digital de enfoque local dedicada a potenciar el crecimiento de pequeñas y medianas empresas (pymes). Realizamos un asesoramiento integral ofreciendo una gama completa de servicios como la implementación de soluciones tecnológicas, estrategias de comercio electrónico, mentoría y formación digital. ",
+  "Nos especializamos en pymes almerienses porque creemos en el potencial de nuestra tierra y de sus emprendedores y, también porque somos conscientes de la brecha digital que existe para muchos pequeños negocios. Blue Tech pretende ayudar a estos comercios a posicionarse en el canal digital y así poder diversificar sus ventas más allá del entorno local. Así, no sólo ofrecemos servicios a nuestros clientes, sino que también queremos ayudar a activar la industria de la provincia más allá del mercado agrícola.  ",
+];
