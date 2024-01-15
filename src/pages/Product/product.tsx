@@ -5,7 +5,7 @@ import { Avatar, Box, Divider, Typography } from "@mui/material";
 import { Footer } from "../../components/Footer/footer";
 import { Header } from "../../components/Header/header";
 
-import { TEXTS, LIFE_TEXTS } from "./content/literals";
+import { TEXTS, LIFE_TEXTS, PRODUCTS } from "./content/literals";
 
 import img from "./content/logo.png";
 
@@ -26,6 +26,15 @@ export const Product: React.FC = () => {
         <Avatar alt="Blue Tech Logo" src={img} sx={{ width: 70, height: 70 }} />
         {TEXTS.map((text, index) => (
           <Typography key={`text-${index}`} sx={{ marginBottom: "10px" }}>
+            {text}
+          </Typography>
+        ))}
+        <Typography component="h4" variant="h6">
+          Producto
+        </Typography>
+        <Divider />
+        {PRODUCTS.map((text, index) => (
+          <Typography key={`product-${index}`} sx={{ marginBottom: "10px" }}>
             {text}
           </Typography>
         ))}

@@ -12,3 +12,11 @@ export const LIFE_TEXTS = [
   "Declive: enfrentamos el declive proactivo mediante la introducción constante de nuevas tecnologías y servicios, asegurándonos de seguir siendo relevantes en un entorno digital en constante evolución.",
   "La política de producto de Blue Tech refleja nuestro compromiso inquebrantable con la excelencia, la innovación y la transformación digital. Nos esforzamos por ofrecer servicios valiosos y soluciones personalizadas que impulsen el éxito de las PYMES almerienses, adaptándonos continuamente para estar a la vanguardia del mercado.",
 ];
+
+export const PRODUCTS = [
+  "Desarrollo web (incluye creación de una plataforma online y su puesta en producción)",
+  "Mantenimiento técnico, (bolsa de horas por proyecto)",
+  "Mentoría técnica (masterclass de un tema tecnológico en concreto - a elegir por el cliente)",
+  "Consultoría tecnológica",
+  "Formación técnica",
+];
