@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blue-tech-company/static/css/main.06e5c967.css",
-    "main.js": "/blue-tech-company/static/js/main.c3c4dd9b.js",
+    "main.js": "/blue-tech-company/static/js/main.bfde3f73.js",
     "static/media/dafo.jpg": "/blue-tech-company/static/media/dafo.b97107649a061feeb1e3.jpg",
     "static/media/environment.jpg": "/blue-tech-company/static/media/environment.cf162d1cf4a2e285a372.jpg",
     "static/media/communication.jpg": "/blue-tech-company/static/media/communication.8065896e9da412d52bd1.jpg",
@@ -13,10 +13,10 @@
     "static/media/founders.jpeg": "/blue-tech-company/static/media/founders.e99d751297887da287a7.jpeg",
     "index.html": "/blue-tech-company/index.html",
     "main.06e5c967.css.map": "/blue-tech-company/static/css/main.06e5c967.css.map",
-    "main.c3c4dd9b.js.map": "/blue-tech-company/static/js/main.c3c4dd9b.js.map"
+    "main.bfde3f73.js.map": "/blue-tech-company/static/js/main.bfde3f73.js.map"
   },
   "entrypoints": [
     "static/css/main.06e5c967.css",
-    "static/js/main.c3c4dd9b.js"
+    "static/js/main.bfde3f73.js"
   ]
 }
