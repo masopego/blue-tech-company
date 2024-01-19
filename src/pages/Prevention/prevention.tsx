@@ -1,15 +1,13 @@
 import React from "react";
 
-import { Avatar, Box, Divider, Typography } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 
 import { Footer } from "../../components/Footer/footer";
 import { Header } from "../../components/Header/header";
 
-import { TEXTS, LIFE_TEXTS, PRODUCTS } from "./content/literals";
+import { TEXTS, RISKS } from "./content/literals";
 
-import img from "./content/logo.png";
-
-export const Product: React.FC = () => {
+export const Prevention: React.FC = () => {
   return (
     <>
       <Header />
@@ -24,32 +22,22 @@ export const Product: React.FC = () => {
         }}
       >
         <Typography component="h4" variant="h6">
-          POLÍTICAS DE PRODUCTO
+          Modalidad de Prevención de Riesgos Laborales
         </Typography>
         <Divider />
-        <Avatar alt="Blue Tech Logo" src={img} sx={{ width: 70, height: 70 }} />
         {TEXTS.map((text, index) => (
           <Typography key={`text-${index}`} sx={{ marginBottom: "10px" }}>
             {text}
           </Typography>
         ))}
-        <Typography component="h4" variant="h6">
-          Producto
-        </Typography>
-        <Divider />
-        {PRODUCTS.map((text, index) => (
-          <Typography key={`product-${index}`} sx={{ marginBottom: "10px" }}>
-            {text}
-          </Typography>
-        ))}
-        <Typography component="h4" variant="h6">
-          Ciclo de vida del Producto
-        </Typography>
-        <Divider />
 
-        {LIFE_TEXTS.map((text, index) => (
-          <Typography key={`life-text-${index}`} sx={{ marginBottom: "10px" }}>
-            {text}
+        <Typography component="h4" variant="h6">
+          Riesgo laboral en Blue Tech
+        </Typography>
+        <Divider />
+        {RISKS.map((risk, index) => (
+          <Typography key={`risk-${index}`} sx={{ marginBottom: "10px" }}>
+            {risk}
           </Typography>
         ))}
       </Box>

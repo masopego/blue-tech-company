@@ -9,4 +9,6 @@ export const ROUTES = {
   PRICE: "/price",
   SUPPLY: "/supply",
   COMMUNICATION: "/communication",
+  PREVENTION: "/prevention",
+  PRODUCTION: "/production",
 };

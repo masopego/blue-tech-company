@@ -26,6 +26,14 @@ export const MENU = [
     ],
   },
   {
+    title: "OPERACIONES",
+    link: "",
+    submenus: [
+      { title: "Plan de Producción o de Operaciones", link: ROUTES.PRODUCTION },
+      { title: "Prevención de Riesgos Laborales", link: ROUTES.PREVENTION },
+    ],
+  },
+  {
     title: "SOBRE NOSOTROS",
     link: ROUTES.ABOUT_US,
     submenus: [],

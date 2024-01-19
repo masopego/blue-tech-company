@@ -1,4 +1,4 @@
-import { ROUTES } from "../../../constants/routes";
+import { ROUTES } from "../../../../../constants/routes";
 import communicationImg from "./images/communication.jpg";
 import supplyImg from "./images/supply_chain.jpg";
 import priceImg from "./images/price.jpg";
@@ -7,6 +7,8 @@ import marketingImg from "./images/marketing.jpg";
 import dafoImg from "./images/dafo.jpg";
 import environmentImg from "./images/environment.jpg";
 import aboutUsImg from "./images/idea.jpg";
+import productionImg from "./images/production.jpg";
+import preventionImg from "./images/prevention.jpg";
 
 export const ARTICLES = [
   {
@@ -64,5 +66,19 @@ export const ARTICLES = [
     image: communicationImg,
     description:
       "¿Cómo conocerán nuestros clientes nuestros productos? Potenciamos nuestras habilidades de comunicación para ponerlas al servicio de nuestro cliente",
+  },
+  {
+    title: "Prevención de Riesgos Laborales",
+    route: ROUTES.PREVENTION,
+    image: preventionImg,
+    description:
+      "¿Qué política de prevención de riesgos laborales se seguiremos? ¿Se contará con ayuda externa o será una tarea interna más? ¿Cuál es nuestro principal riesgo?",
+  },
+  {
+    title: "Plan de Producción o de Operaciones",
+    route: ROUTES.PRODUCTION,
+    image: productionImg,
+    description:
+      "¿Quiénes van a ser nuestros proveedores? ¿Qué tipo de servicios ofrecemos? ¿Cómo será el contacto entre Blue Tech y el cliente? Presentamos el Plan de Producción de Blue Tech",
   },
 ];

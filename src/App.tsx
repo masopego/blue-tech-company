@@ -11,6 +11,8 @@ import { Product } from "./pages/Product/product";
 import { Price } from "./pages/Price/price";
 import { Supply } from "./pages/Supply/supply";
 import { Communication } from "./pages/Communication/communication";
+import { Prevention } from "./pages/Prevention/prevention";
+import { Production } from "./pages/Production/production";
 
 export const App = () => {
   return (
@@ -26,6 +28,8 @@ export const App = () => {
         <Route path={ROUTES.PRICE} element={<Price />} />
         <Route path={ROUTES.SUPPLY} element={<Supply />} />
         <Route path={ROUTES.COMMUNICATION} element={<Communication />} />
+        <Route path={ROUTES.PREVENTION} element={<Prevention />} />
+        <Route path={ROUTES.PRODUCTION} element={<Production />} />
       </Routes>
     </HashRouter>
   );

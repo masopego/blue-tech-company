@@ -12,6 +12,8 @@ import { Footer } from "../../components/Footer/footer";
 
 import { TABS } from "./content/literals";
 import { Header } from "../../components/Header/header";
+import { Team } from "./components/Team/team";
+import { Localization } from "./components/Localization/localization";
 
 export const AboutUs: React.FC = () => {
   const [currentTab, setCurrentTab] = React.useState(0);
@@ -47,6 +49,12 @@ export const AboutUs: React.FC = () => {
         </CustomTabPanel>
         <CustomTabPanel value={currentTab} index={2}>
           <SocialResponsability />
+        </CustomTabPanel>
+        <CustomTabPanel value={currentTab} index={3}>
+          <Team />
+        </CustomTabPanel>
+        <CustomTabPanel value={currentTab} index={4}>
+          <Localization />
         </CustomTabPanel>
       </Box>
       <Footer />
