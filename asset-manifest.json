@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/blue-tech-company/static/css/main.06e5c967.css",
-    "main.js": "/blue-tech-company/static/js/main.bd1ae0b0.js",
+    "main.js": "/blue-tech-company/static/js/main.e8ec96b6.js",
     "static/media/dafo.jpg": "/blue-tech-company/static/media/dafo.b97107649a061feeb1e3.jpg",
     "static/media/environment.jpg": "/blue-tech-company/static/media/environment.cf162d1cf4a2e285a372.jpg",
+    "static/media/prevention.jpg": "/blue-tech-company/static/media/prevention.61bc7341d5a3e3faaefc.jpg",
     "static/media/communication.jpg": "/blue-tech-company/static/media/communication.8065896e9da412d52bd1.jpg",
     "static/media/marketing.jpg": "/blue-tech-company/static/media/marketing.3c85d034e9f78a29bea3.jpg",
     "static/media/supply_chain.jpg": "/blue-tech-company/static/media/supply_chain.95727713f7d0e84407af.jpg",
+    "static/media/production.jpg": "/blue-tech-company/static/media/production.38b0cd3377bee127e3aa.jpg",
     "static/media/idea.jpg": "/blue-tech-company/static/media/idea.d0aa5116e739f129963f.jpg",
     "static/media/price.jpg": "/blue-tech-company/static/media/price.32349683b529d0c575d0.jpg",
     "static/media/product.jpg": "/blue-tech-company/static/media/product.c99f20885941ed9dc8e1.jpg",
+    "static/media/workSpace.jpeg": "/blue-tech-company/static/media/workSpace.0ca46f9eaac677f85e96.jpeg",
     "static/media/founders.jpeg": "/blue-tech-company/static/media/founders.e99d751297887da287a7.jpeg",
+    "static/media/team.png": "/blue-tech-company/static/media/team.c4de3cf9e6ea51cf8165.png",
     "index.html": "/blue-tech-company/index.html",
     "main.06e5c967.css.map": "/blue-tech-company/static/css/main.06e5c967.css.map",
-    "main.bd1ae0b0.js.map": "/blue-tech-company/static/js/main.bd1ae0b0.js.map"
+    "main.e8ec96b6.js.map": "/blue-tech-company/static/js/main.e8ec96b6.js.map"
   },
   "entrypoints": [
     "static/css/main.06e5c967.css",
-    "static/js/main.bd1ae0b0.js"
+    "static/js/main.e8ec96b6.js"
   ]
 }
