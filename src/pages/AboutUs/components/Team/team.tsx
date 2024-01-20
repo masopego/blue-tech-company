@@ -2,7 +2,9 @@ import * as React from "react";
 
 import { Box, Typography } from "@mui/material";
 
-import { TEXTS } from "./content/literals";
+import { NEW_TEXTS, TEXTS } from "./content/literals";
+
+import teamImg from "./content/team.png";
 
 export const Team: React.FC = () => {
   return (
@@ -16,6 +18,13 @@ export const Team: React.FC = () => {
       }}
     >
       {TEXTS.map((text, index) => (
+        <Typography key={`text-${index}`} sx={{ marginBottom: "10px" }}>
+          {text}
+        </Typography>
+      ))}
+      <img src={teamImg} width={700} alt="Organigrama" />
+
+      {NEW_TEXTS.map((text, index) => (
         <Typography key={`text-${index}`} sx={{ marginBottom: "10px" }}>
           {text}
         </Typography>
